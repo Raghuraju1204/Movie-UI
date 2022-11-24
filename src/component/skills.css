@@ -1,0 +1,53 @@
+.intro {
+  border: 1px solid black;
+  height: 100px;
+  background-color: #fcd21f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.out {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.skills {
+  margin-top: 10px;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  border-radius: 15px;
+  height: 360px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
